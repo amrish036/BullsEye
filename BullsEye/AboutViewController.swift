@@ -9,9 +9,10 @@
 import UIKit
 
 class AboutViewController: UIViewController {
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
+  @IBAction func close(sender: UIButton) {
+    dismissViewControllerAnimated(true, completion: nil)
   }
+  
+  
 
 }
