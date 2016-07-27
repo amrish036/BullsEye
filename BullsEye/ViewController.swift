@@ -21,5 +21,18 @@ class ViewController: UIViewController {
   }
 
 
+  @IBAction func showAlert() {
+    let alert = UIAlertController(title: "Hello, World",
+                                  message: "This is my first app!",
+                                  preferredStyle: .Alert)
+    let action = UIAlertAction(title: "Awesome", style: .Default,
+                               handler: nil)
+    alert.addAction(action)
+    presentViewController(alert, animated: true, completion: nil)
+  }
+
+  @IBAction func sliderMoved(slider: UISlider) {
+    print("The value of the slider is now: \(slider.value)");
+  }
 }
 
