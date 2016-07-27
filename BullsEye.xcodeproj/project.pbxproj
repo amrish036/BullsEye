@@ -15,6 +15,7 @@
 		EE8CD5501D4868910024434D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8CD54E1D4868910024434D /* LaunchScreen.storyboard */; };
 		EE8CD55B1D4868910024434D /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8CD55A1D4868910024434D /* BullsEyeTests.swift */; };
 		EE8CD5661D4868910024434D /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8CD5651D4868910024434D /* BullsEyeUITests.swift */; };
+		EEFB7DDD1D48DCCC00600F23 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB7DDC1D48DCCC00600F23 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE8CD5611D4868910024434D /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8CD5651D4868910024434D /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		EE8CD5671D4868910024434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFB7DDC1D48DCCC00600F23 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EE8CD5411D4868910024434D /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				EEFB7DDC1D48DCCC00600F23 /* AboutViewController.swift */,
 				EE8CD5421D4868910024434D /* AppDelegate.swift */,
 				EE8CD5441D4868910024434D /* ViewController.swift */,
 				EE8CD5461D4868910024434D /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				EE8CD54B1D4868910024434D /* BullsEye.xcdatamodeld in Sources */,
 				EE8CD5451D4868910024434D /* ViewController.swift in Sources */,
+				EEFB7DDD1D48DCCC00600F23 /* AboutViewController.swift in Sources */,
 				EE8CD5431D4868910024434D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
